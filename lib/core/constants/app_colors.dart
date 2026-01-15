@@ -8,4 +8,11 @@ class AppColors {
   static const white = Color(0xFFFFFFFF);
   static const black = Color(0xFF000000);
   static const background = Color(0xFFF8FDFD);
+
+  static const error = Color(0xFFE53935);
+  static const success = Color(0xFF43A047);
+
+  static const facebook = Color(0xFF3B5998);
+  static const pinterest = Color(0xFFCB2027);
+  static const linkedin = Color(0xFF007AB9);
 }
