@@ -1,6 +1,6 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:ecommerce_app/core/constants/app_assets.dart';
-import 'package:ecommerce_app/core/constants/app_strings.dart';
+import 'package:e_commerce_app/core/constants/app_assets.dart';
+import 'package:e_commerce_app/core/constants/app_strings.dart';
 import '../data/models/onboarding_model.dart';
 import 'onboarding_state.dart';
 
@@ -21,7 +21,7 @@ class OnboardingCubit extends Cubit<OnboardingState> {
       subTitle: AppStrings.addToCartDesc,
     ),
     OnboardingModel(
-      image: AppAssets.onboarding2,
+      image: AppAssets.onboarding3,
       title: AppStrings.securePaymentTitle,
       subTitle: AppStrings.securePaymentDesc,
     ),
